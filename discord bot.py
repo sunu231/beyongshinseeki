@@ -248,4 +248,6 @@ async def n(ctx):
     else:
         await ctx.send(embed = discord.Embed(title = "지금노래", description = "현재 " + musicnow[0] + " 을(를) 부르고 있습니다!", color = 0x00ff00))
 
-bot.run('ODg4NjA2OTcwNjExODkyMjg0.YUVJuw.goW_-WyxKCVT8vLcP4CbbTyuKPc')
+          
+access_tokken = os.environ("BOT_TOKEN")
+clinet.run(access_token)
